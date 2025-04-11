@@ -1,0 +1,142 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="Saronb/style.css">
+<style>
+</style>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav container">
+           <div class="nav__data">
+              <div class="nav__logo">
+                 <i class="ri-planet-line"></i> GAMELAN
+              </div>
+  
+              <div class="nav__toggle" id="nav-toggle">
+                 <i class="ri-menu-line nav__burger"></i>
+                 <i class="ri-close-line nav__close"></i>
+              </div>
+           </div>
+
+
+
+    <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+           
+
+           <li><a href="index.html" class="nav__link">Home</a></li>
+           <li><a href="Sejarah.html" class="nav__link">Sejarah</a></li>
+
+           <!--=============== DROPDOWN 1 ===============-->
+           <li class="dropdown__item">
+              <div class="nav__link">
+                 Alat Musik <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                 <li>
+                    <a href="Bonang.html" class="dropdown__link">
+                       <i class="ri-pie-chart-line"></i> Bonang
+                    </a>
+                 </li>
+
+                 <li>
+                    <a href="Gambang.html" class="dropdown__link">
+                       <i class="ri-arrow-up-down-line"></i> Gambang
+                    </a>
+                 </li>
+                 <a href="Genderp.html" class="dropdown__link">
+                    <i class="ri-arrow-up-down-line"></i> Gender Penerus
+                 </a>
+           </li>
+           <a href="kenong.html" class="dropdown__link">
+              <i class="ri-arrow-up-down-line"></i> Kenong
+           </a>
+           </li>
+           <a href="Saronb.html" class="dropdown__link">
+              <i class="ri-arrow-up-down-line"></i> Saron Barung
+           </a>
+           </li>
+           <a href="Sarond.html" class="dropdown__link">
+              <i class="ri-arrow-up-down-line"></i> Saron Demung
+           </a>
+           </li>
+        </ul>
+        
+     </div>
+  </nav>
+</header>
+
+
+
+
+
+<h1>Saron Barung</h1>
+    <div class="piano">
+        <div class="key" data-note="1" data-key="1">Ji</div>
+        <div class="key" data-note="2" data-key="2">Ro</div>
+        <div class="key" data-note="3" data-key="3">Lu</div>
+        <div class="key" data-note="4" data-key="4">Pat</div>
+        <div class="key" data-note="5" data-key="5">Mo</div>
+        <div class="key" data-note="6" data-key="6">Nem</div>
+        <div class="key" data-note="7" data-key="7">Pi</div>
+    </div>
+
+    <script>
+        document.querySelector('[data-note="1"]').onclick = () => new Audio('Saronb/670432__iainmccurdy__saron-barung-1.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === '1') {
+                new Audio('Saronb/670432__iainmccurdy__saron-barung-1.wav').play();
+            }
+        });
+
+        document.querySelector('[data-note="2"]').onclick = () => new Audio('Saronb/670433__iainmccurdy__saron-barung-2.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === '2') {
+                new Audio('Saronb/670433__iainmccurdy__saron-barung-2.wav').play();
+            }
+        });
+
+        document.querySelector('[data-note="3"]').onclick = () => new Audio('Saronb/670434__iainmccurdy__saron-barung-3.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === '3') {
+                new Audio('Saronb/670434__iainmccurdy__saron-barung-3.wav').play();
+            }
+        });
+
+        document.querySelector('[data-note="4"]').onclick = () => new Audio('Saronb/670435__iainmccurdy__saron-barung-4.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === '4') {
+                new Audio('Saronb/670435__iainmccurdy__saron-barung-4.wav').play();
+            }
+        });
+
+        document.querySelector('[data-note="5"]').onclick = () => new Audio('Saronb/670436__iainmccurdy__saron-barung-5.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === '5') {
+                new Audio('Saronb/670436__iainmccurdy__saron-barung-5.wav').play();
+            }
+        });
+
+        document.querySelector('[data-note="6"]').onclick = () => new Audio('Saronb/670437__iainmccurdy__saron-barung-6.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === '6') {
+                new Audio('Saronb/670437__iainmccurdy__saron-barung-6.wav').play();
+            }x
+        });
+
+        document.querySelector('[data-note="7"]').onclick = () => new Audio('Saronb/670438__iainmccurdy__saron-barung-7.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === '7') {
+                new Audio('Saronb/670438__iainmccurdy__saron-barung-7.wav').play();12
+            }
+        });
+    </script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

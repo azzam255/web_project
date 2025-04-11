@@ -1,0 +1,202 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="Bonang/style.css">
+<style>
+</style>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav container">
+           <div class="nav__data">
+              <div class="nav__logo">
+                 <i class="ri-planet-line"></i> GAMELAN
+              </div>
+  
+              <div class="nav__toggle" id="nav-toggle">
+                 <i class="ri-menu-line nav__burger"></i>
+                 <i class="ri-close-line nav__close"></i>
+              </div>
+           </div>
+
+
+
+    <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+           
+
+           <li><a href="index.html" class="nav__link">Home</a></li>
+           <li><a href="Sejarah.html" class="nav__link">Sejarah</a></li>
+
+           <!--=============== DROPDOWN 1 ===============-->
+           <li class="dropdown__item">
+              <div class="nav__link">
+                 Alat Musik <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                 <li>
+                    <a href="Bonang.html" class="dropdown__link">
+                       <i class="ri-pie-chart-line"></i> Bonang
+                    </a>
+                 </li>
+
+                 <li>
+                    <a href="Gambang.html" class="dropdown__link">
+                       <i class="ri-arrow-up-down-line"></i> Gambang
+                    </a>
+                 </li>
+                 <a href="Genderp.html" class="dropdown__link">
+                    <i class="ri-arrow-up-down-line"></i> Gender Penerus
+                 </a>
+           </li>
+           <a href="kenong.html" class="dropdown__link">
+              <i class="ri-arrow-up-down-line"></i> Kenong
+           </a>
+           </li>
+           <a href="Saronb.html" class="dropdown__link">
+              <i class="ri-arrow-up-down-line"></i> Saron Barung
+           </a>
+           </li>
+           <a href="Sarond.html" class="dropdown__link">
+              <i class="ri-arrow-up-down-line"></i> Saron Demung
+           </a>
+           </li>
+        </ul>
+        
+     </div>
+  </nav>
+</header>
+
+
+<h1>Bonang</h1>
+    <div class="piano">
+        <div class="key" data-note="1" data-key="1">1</div>
+        <div class="key" data-note="2" data-key="2">2</div>
+        <div class="key" data-note="3" data-key="3">3</div>
+        <div class="key" data-note="4" data-key="4">4</div>
+        <div class="key" data-note="5" data-key="5">5</div>
+        <div class="key" data-note="6" data-key="6">6</div>
+        <div class="key" data-note="7" data-key="7">7</div>
+    </div>
+
+    <div class="piano">
+        <div class="key" data-note="8" data-key="8">q</div>
+        <div class="key" data-note="9" data-key="9">w</div>
+        <div class="key" data-note="10" data-key="10">e</div>
+        <div class="key" data-note="11" data-key="11">r</div>
+        <div class="key" data-note="12" data-key="12">t</div>
+        <div class="key" data-note="13" data-key="13">y</div>
+        <div class="key" data-note="14" data-key="14">u</div>
+    </div>
+
+    <script>
+        document.querySelector('[data-note="1"]').onclick = () => new Audio('Bonang/670339__iainmccurdy__bonang-1.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === '1') {
+                new Audio('Bonang/670339__iainmccurdy__bonang-1.wav').play();
+            }
+        });
+
+        document.querySelector('[data-note="2"]').onclick = () => new Audio('Bonang/670340__iainmccurdy__bonang-2.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === '2') {
+                new Audio('Bonang/670340__iainmccurdy__bonang-2.wav').play();
+            }
+        });
+
+        document.querySelector('[data-note="3"]').onclick = () => new Audio('Bonang/670341__iainmccurdy__bonang-3.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === '3') {
+                new Audio('Bonang/670341__iainmccurdy__bonang-3.wav').play();
+            }
+        });
+
+        document.querySelector('[data-note="4"]').onclick = () => new Audio('Bonang/670342__iainmccurdy__bonang-4.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === '4') {
+                new Audio('Bonang/670342__iainmccurdy__bonang-4.wav').play();
+            }
+        });
+
+        document.querySelector('[data-note="5"]').onclick = () => new Audio('Bonang/670343__iainmccurdy__bonang-5.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === '5') {
+                new Audio('Bonang/670343__iainmccurdy__bonang-5.wav').play();
+            }
+        });
+
+        document.querySelector('[data-note="6"]').onclick = () => new Audio('Bonang/670344__iainmccurdy__bonang-6.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === '6') {
+                new Audio('Bonang/670344__iainmccurdy__bonang-6.wav').play();
+            }x
+        });
+
+        document.querySelector('[data-note="7"]').onclick = () => new Audio('Bonang/670345__iainmccurdy__bonang-7.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === '7') {
+                new Audio('Bonang/670345__iainmccurdy__bonang-7.wav').play();12
+            }
+        });
+
+        document.querySelector('[data-note="8"]').onclick = () => new Audio('Bonang/676196__iainmccurdy__bonang08.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === 'q') {
+                new Audio('Bonang/676196__iainmccurdy__bonang08.wav').play();
+            }
+        });
+
+        document.querySelector('[data-note="9"]').onclick = () => new Audio('Bonang/676197__iainmccurdy__bonang09.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === 'w') {
+                new Audio('Bonang/676197__iainmccurdy__bonang09.wav').play();
+            }
+        });
+
+        document.querySelector('[data-note="10"]').onclick = () => new Audio('Bonang/676198__iainmccurdy__bonang10.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === 'e') {
+                new Audio('Bonang/676198__iainmccurdy__bonang10.wav').play();
+            }
+        });
+
+        document.querySelector('[data-note="11"]').onclick = () => new Audio('Bonang/676199__iainmccurdy__bonang11.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === 'r') {
+                new Audio('Bonang/676199__iainmccurdy__bonang11.wav').play();
+            }
+        });
+
+        document.querySelector('[data-note="12"]').onclick = () => new Audio('Bonang/676200__iainmccurdy__bonang12.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === 't') {
+                new Audio('Bonang/676200__iainmccurdy__bonang12.wav').play();
+            }
+        });
+
+        document.querySelector('[data-note="13"]').onclick = () => new Audio('Bonang/676201__iainmccurdy__bonang13.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === 'y') {
+                new Audio('Bonang/676201__iainmccurdy__bonang13.wav').play();
+            }
+        });
+
+        document.querySelector('[data-note="14"]').onclick = () => new Audio('Bonang/676202__iainmccurdy__bonang14.wav').play();
+        document.addEventListener('keydown', event => {
+            if (event.key === 'u') {
+                new Audio('Bonang/676202__iainmccurdy__bonang14.wav').play();
+            }
+        });
+    </script>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
